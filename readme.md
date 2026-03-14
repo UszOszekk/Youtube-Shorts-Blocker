@@ -16,7 +16,7 @@ When you're on YouTube Shorts, the extension intercepts scroll and navigation ev
 
 ## Instalation
 
-1. clone this repo
+1. clone this repo or download the zip from releases
 2. go to chrome://extensions
 3. enable developer mode
 4. click the Load unpacked button and select the folder with the extension
