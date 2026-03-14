@@ -18,14 +18,6 @@ const arrowDownHandler = function (event) {
     showNotification("Arrow down key blocked!");
   }
 };
-document.addEventListener("wheel", wheelHandler, {
-  passive: false,
-  capture: true,
-});
-document.addEventListener("keydown", arrowDownHandler, {
-  passive: false,
-  capture: true,
-});
 
 const buttonClickHandler = function (event) {
   if (isOnShorts()) {
@@ -40,11 +32,6 @@ const buttonClickHandler = function (event) {
   }
 };
 
-document.addEventListener("click", buttonClickHandler, {
-  passive: false,
-  capture: true,
-});
-
 const mouseDownHandler = function (event) {
   if (isOnShorts() && event.button === 1) {
     event.preventDefault();
@@ -54,6 +41,18 @@ const mouseDownHandler = function (event) {
 };
 
 document.addEventListener("mousedown", mouseDownHandler, {
+  passive: false,
+  capture: true,
+});
+document.addEventListener("wheel", wheelHandler, {
+  passive: false,
+  capture: true,
+});
+document.addEventListener("keydown", arrowDownHandler, {
+  passive: false,
+  capture: true,
+});
+document.addEventListener("click", buttonClickHandler, {
   passive: false,
   capture: true,
 });
