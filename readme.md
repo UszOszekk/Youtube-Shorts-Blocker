@@ -23,5 +23,5 @@ When you're on YouTube Shorts, the extension intercepts scroll and navigation ev
 3. enable developer mode
 4. click the Load unpacked button and select the folder with the extension
 
-OR Chrome web store download
+OR Chrome web store download (version 1.0, going to be updated in few days)
 [download](https://chromewebstore.google.com/detail/cmepkdjjnkijpckbdoepcopdhffbkmpo?utm_source=item-share-cb)
