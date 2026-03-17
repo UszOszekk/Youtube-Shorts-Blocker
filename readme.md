@@ -1,5 +1,7 @@
 # YouTube Shorts Blocker
 
+For chromium based browsers!
+
 Blocks scrolling on YouTube Shorts, preventing navigation via:
 
 - Mouse wheel scrolling
@@ -21,4 +23,5 @@ When you're on YouTube Shorts, the extension intercepts scroll and navigation ev
 3. enable developer mode
 4. click the Load unpacked button and select the folder with the extension
 
-Currently the only way to install because its getting verified for the Chrome Web Store
+OR Chrome web store download
+[download](https://chromewebstore.google.com/detail/cmepkdjjnkijpckbdoepcopdhffbkmpo?utm_source=item-share-cb)
